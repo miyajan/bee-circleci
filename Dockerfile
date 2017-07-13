@@ -33,3 +33,6 @@ RUN nodebrew use v6.11.1
 # awscli
 RUN pip install awscli
 
+# fonts
+RUN apt-get update && apt-get install --no-install-recommends -y fonts-migmix
+
