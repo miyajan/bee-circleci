@@ -36,3 +36,6 @@ RUN pip install awscli
 # fonts
 RUN apt-get update && apt-get install --no-install-recommends -y fonts-migmix
 
+# python3
+RUN apt-get update && apt-get install --no-install-recommends -y python3
+
